@@ -50,7 +50,7 @@ podTemplate(podRetention: onFailure(), containers: [
                         sh '''
         	            pwd
                		    cd Chapter08/sample1
-                	    ./gradlew checkstyleTest 
+                	    ./gradlew checkstyle  
                         '''
                     } catch (Exception E) {
                         echo 'Failure detected'
